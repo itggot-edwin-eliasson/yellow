@@ -4,6 +4,6 @@ public class Group {
 
     public Group (String name) {
         this.name = name;
-
+        this.name = this.name.toString();
     }
 }
